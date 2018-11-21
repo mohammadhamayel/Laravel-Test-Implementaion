@@ -1,0 +1,133 @@
+.nav .navbar .navbar-default{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	margin: 0px;
+}
+.navbar{
+	margin: 0;
+}
+.bar{
+  background: #dfdfdf;
+
+}
+
+h3{
+	padding: 10px;
+  padding-right: 100px;
+	margin: 0;
+  display: inline-block;
+}
+div a{
+  color: #555;
+}
+
+.flex-center {
+    align-items: center;
+    display:grid ;
+    justify-content: center;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  list-style: none;
+  background: #adadaded;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar .navbar ul {
+	position: left;
+    float: none;
+    display: block;
+    padding: 0;
+  }
+.sidebar .navbar li {
+float: none;
+display: block;
+padding: 5px;
+}
+.sidebar-nav li a{
+	color: #000000;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+
+}
+.navbar ul li a:hover {
+  background-color: #eee;
+
+}
+.container{
+	margin-left: 250px;
+}
+.content{
+  margin: 0;
+}
+img{
+  margin: 10px;
+}
+table tbody tr td{
+
+	padding-bottom: 20px;
+}
+table{
+	margin-left: 30px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  
+}
+
+/* Add styles to the form container */
+.form-container , #myForm{
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
